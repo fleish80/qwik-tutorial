@@ -4,6 +4,7 @@ import {HelloWorld} from '../simple-app/hello-world.component';
 import {Basic} from '../simple-app/basic.component';
 import {StateManagement} from '../simple-app/state-management.component';
 import {FetchingResources} from '../simple-app/fetching-resources.component';
+import {Inline} from '../simple-app/inline.component';
 
 export const App = component$(() => {
     return (
@@ -12,7 +13,8 @@ export const App = component$(() => {
             {/*<HelloWorld />*/}
             {/*<Basic />*/}
             {/*<StateManagement />*/}
-            <FetchingResources/>
+            {/*<FetchingResources/>*/}
+            <Inline/>
         </div>
     );
 });
