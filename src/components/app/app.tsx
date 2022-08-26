@@ -1,16 +1,18 @@
-import {component$, Host} from '@builder.io/qwik';
+import {component$} from '@builder.io/qwik';
 import {Logo} from '../logo/logo';
-import {SimpleApp} from '../simple-app/simple-app';
+import {HelloWorld} from '../simple-app/hello-world.component';
+import {Basic} from '../simple-app/basic.component';
+import {StateManagement} from '../simple-app/state-management.component';
+import {FetchingResources} from '../simple-app/fetching-resources.component';
 
 export const App = component$(() => {
     return (
-        <Host>
+        <div class="my-app p-20">
             <Logo/>
-
-            <h1>Qwik tutorial</h1>
-
-            <SimpleApp />
-
-        </Host>
+            {/*<HelloWorld />*/}
+            {/*<Basic />*/}
+            {/*<StateManagement />*/}
+            <FetchingResources/>
+        </div>
     );
 });
