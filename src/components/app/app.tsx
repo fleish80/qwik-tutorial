@@ -26,6 +26,19 @@ import {UseResource} from '../simple-app/use-resource.component';
 import {UseContext} from '../simple-app/use-context.component';
 import {UseMount} from '../simple-app/use-mount.component';
 import {UseCleanup} from '../simple-app/use-cleanup.component';
+import {UseClientEffect} from '../simple-app/use-client-effect.component';
+import {UseRef} from '../simple-app/use-ref.component';
+import {BasicProjection} from '../simple-app/basic-projection.componet';
+import {NamedSlots} from '../simple-app/named-slots.component';
+import {FallbackContent} from '../simple-app/fallback-content.components';
+import {UseStyles} from '../simple-app/use-styles.component';
+import {UseStylesScope} from '../simple-app/use-styles-scope.component';
+import {LazyLoadingConstants} from '../simple-app/lazy-loading-constants.component';
+import {LazyLoadingClosures} from '../simple-app/lazy-loading-closures.component';
+import {CreatingApiWithDollar} from '../simple-app/creating-api-with-dollar.component';
+import {ComposingUseHooks} from '../simple-app/composing-use-hooks.component';
+import {TreeShakingStatic} from '../simple-app/tree-shaking-static.component';
+import {CapturingLexicalScope} from '../simple-app/capturing-lexical-scope.component';
 
 export const App = component$(() => {
     return (
@@ -56,7 +69,20 @@ export const App = component$(() => {
             {/*<UseResource/>*/}
             {/*<UseContext/>*/}
             {/*<UseMount/>*/}
-            <UseCleanup/>
+            {/*<UseCleanup/>*/}
+            {/*<UseClientEffect/>*/}
+            {/*<UseRef/>*/}
+            {/*<BasicProjection/>*/}
+            {/*<NamedSlots/>*/}
+            {/*<FallbackContent/>*/}
+            {/*<UseStyles/>*/}
+            {/*<UseStylesScope/>*/}
+            {/*<LazyLoadingConstants/>*/}
+            {/*<LazyLoadingClosures/>*/}
+            {/*<CreatingApiWithDollar/>*/}
+            {/*<ComposingUseHooks/>*/}
+            {/*<TreeShakingStatic/>*/}
+            <CapturingLexicalScope/>
         </div>
     );
 });
